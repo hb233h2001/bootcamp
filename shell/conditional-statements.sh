@@ -18,7 +18,7 @@ if [ $number -gt 5 ]; then
     echo "number bigger than 5."
 fi
 
-#if-else文
+# if-else文
 # 条件が真でない場合、他のコマンドを実行したいときにelseを使用。
 
 # if [ condition ]; then
