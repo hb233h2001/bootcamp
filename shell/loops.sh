@@ -9,12 +9,12 @@
 
 # for Variable in list
 # do
-#     commands
+#   commands
 # done
 
 for item in 1 2 3 4 5
 do
-    echo "item: $item"
+  echo "item: $item"
 done
 
 # ファイルやディレクトリのリストを繰り返す時も使用可能。
@@ -22,7 +22,7 @@ done
 # 現在のディレクトリ内のすべてのファイルを繰り返す例
 for filename in *
 do
-    echo "Filename: $filename"
+  echo "Filename: $filename"
 done
 
 # 2. while ループ
