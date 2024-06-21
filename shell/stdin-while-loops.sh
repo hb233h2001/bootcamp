@@ -6,8 +6,8 @@ echo "Enter some numbers (press Ctrl+D to finish):"
 # ループスタート
 while read num; do
 
-    #ループ結果出力
-    echo "You entered: $num"
+#ループ結果出力
+  echo "You entered: $num"
 done
 
 # 終了メッセージ出力
