@@ -9,13 +9,13 @@
 # 最も基本的な条件文
 
 # if [ condition ]; then
-#     if body
+#   if body
 # fi
 
 number=10
 
 if [ $number -gt 5 ]; then
-    echo "number bigger than 5."
+  echo "number bigger than 5."
 fi
 
 # if-else文
@@ -38,7 +38,7 @@ fi
 # 複数の条件を検査したいときにelifを使用。
 
 # if [ condition ]; then
-#     if body
+#   if body
 # elif [ condition ]; then
 #   else if body
 # else
@@ -48,11 +48,11 @@ fi
 number=5
 
 if [ $number -gt 10 ]; then
-    echo "number bigger than 10."
+  echo "number bigger than 10."
 elif [ $number -eq 5 ]; then
-    echo "number is 5."
+  echo "number is 5."
 else
-    echo "number is smaller than 5."
+  echo "number is smaller than 5."
 fi
 
 # 条件比較
@@ -75,9 +75,9 @@ fi
 string="hello"
 
 if [ -z "$string" ]; then
-    echo "string is an empty string."
+  echo "string is an empty string."
 else
-    echo "string is not an empty string."
+  echo "string is not an empty string."
 fi
 
 # 論理演算子
@@ -88,34 +88,34 @@ fi
 number=7
 
 if [ $number -gt 5 ] && [ $number -lt 10 ]; then
-    echo "number is bigger than 5 and smaller than 10."
+  echo "number is bigger than 5 and smaller than 10."
 fi
 
 # case文
 # 複数の場合の数を処理するときに使用します。スイッチ文と類似.
 
 # case [condition] in
-#     pattern 1)
-#         command1
-#     ;;
-#     pattern 2)
-#         command2
-#     ;;
-#     *)
-#         Default command
-#     ;;
+#   pattern 1)
+#     command1
+#   ;;
+#   pattern 2)
+#     command2
+#   ;;
+#   *)
+#     Default command
+#   ;;
 # esac
 
 fruit="apple"
 
 case $fruit in
-    "apple")
-        echo "りんごです。"
-        ;;
-    "banana")
-        echo "バナナです。"
-        ;;
-    *)
-        echo "わからない果物です。"
-        ;;
+  "apple")
+    echo "りんごです。"
+    ;;
+  "banana")
+    echo "バナナです。"
+    ;;
+  *)
+    echo "わからない果物です。"
+    ;;
 esac
