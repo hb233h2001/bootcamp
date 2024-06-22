@@ -29,9 +29,9 @@ fi
 
 number=3
 if [ $number -gt 5 ]; then
-    echo "number bigger than 5."
+  echo "number bigger than 5."
 else
-    echo "number is 5 or smaller than 5."
+  echo "number is 5 or smaller than 5."
 fi
 
 # if-elif-else文
