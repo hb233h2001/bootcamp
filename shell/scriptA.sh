@@ -10,7 +10,7 @@ echo "こんにちは。今日はいかがお過ごしでしょうか?"
 read input
 
 if [ -z $input ]; then
-    echo "申し訳ございません。"
+  echo "申し訳ございません。"
 else
-    ./scriptC.sh
+  ./scriptC.sh
 fi
