@@ -15,7 +15,7 @@ while true; do
       ;;
     ng)
       # 標準エラー出力をng.txtにリダイレクト
-      echo "これはエラーメッセージです。" > ng.txt
+      test-command 2> ng.txt
       echo "標準エラー出力がng.txtに記録されました。"
       break
       ;;
